@@ -1,0 +1,38 @@
+iniciar git local
+criar ficheiro txt  "este workshop é o máximo" (echo git é fixe > file.txt)
+git add
+git status
+adicionar origem remota e commit (git remote add origin https://github.com/Andrepereira2001/git-workshop.git)
+status
+mostrar github vazio 
+dar push
+mostrar github
+
+git add file
+git reset file
+git add file
+git commit 
+git push
+
+fazer alterações online->explicar que o repositorio online está mais avançado
+dar pull
+
+git log --oneline
+
+
+
+2ª parte
+fazer um fork de um repositorio já com branches e algum codigo
+git log --oneline
+git branch
+git switch branchSecundário
+mexer em alguma coisa commit
+amend do commit->mostrar que não aparece o outro commit no git log
+git rebase (git rebase --continue)
+mergir com o master
+fazer merge dos conflitos
+criar branches novo
+alterar qualquer coisa
+criar pull request
+
+git reflog para mostrar que os amends não desaparecem realmente
